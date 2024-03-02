@@ -2,6 +2,7 @@
 for i in range(10):
     for j in range(i+1, 10):
         print('{}'.format(i), end='')
-        print('{},'.format(j), end=' ')
         if i == 8:
-            print(end='\n')
+            print('{}'.format(j), end='\n')
+        else:
+            print('{},'.format(j), end=' ')
