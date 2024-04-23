@@ -5,8 +5,8 @@ if __name__ == "__main__":
     if result == 1:
         print("{} argument:".format(result))
     elif result == 0:
-        print("{} argument.".format(result))
+        print("{} arguments.".format(result))
     else:
         print("{} arguments:".format(result))
     for i in range(1, result):
-        print("{}: {}".format(i, result(i)))
+        print("{}: {}".format(i, result[i]))
