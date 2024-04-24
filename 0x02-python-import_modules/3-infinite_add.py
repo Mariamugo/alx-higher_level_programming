@@ -4,5 +4,5 @@ if __name__ == "__main__":
     result = sys.argv[1:]
     total = 0
     for i in result:
-        total += int(i) 
+        total += int(i)
     print("{}".format(total))
