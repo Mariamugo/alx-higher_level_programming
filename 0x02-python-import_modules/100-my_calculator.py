@@ -12,7 +12,7 @@ if __name__ == "__main__":
     if operator != '+' and operator != '-' and operator != '*' and operator != '/':
         print("Unknown operator. Available operators: +, -, * and /")
         sys.exit(1)
-   
+ 
     a = int(sys.argv[1])
     b = int(sys.argv[3])
 
@@ -24,4 +24,4 @@ if __name__ == "__main__":
     elif operator == '*':
         print("{} * {} = {}".format(a, b, mul(a, b)))
     else:
-        print("{} / {} = {}".format(a, b, div(a, b))) 
+        print("{} / {} = {}".format(a, b, div(a, b)))
